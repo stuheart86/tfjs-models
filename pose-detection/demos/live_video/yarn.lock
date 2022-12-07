@@ -980,18 +980,18 @@
 "@tensorflow-models/pose-detection@file:../../dist":
   version "0.0.0"
 
-"@tensorflow/tfjs-backend-cpu@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-3.21.0.tgz#ee0274bf14627d08b81c4e229230da66dc9c3d92"
-  integrity sha512-88S21UAdzyK0CsLUrH17GPTD+26E85OP9CqmLZslaWjWUmBkeTQ5Zqyp6iK+gELnLxPx6q7JsNEeFuPv4254lQ==
-  dependencies:
-    "@types/seedrandom" "^2.4.28"
-    seedrandom "^3.0.5"
-
 "@tensorflow/tfjs-backend-cpu@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.0.0.tgz#ed957eedca558d5b0ce9caa129f180b88039501b"
   integrity sha512-Y9ok6VBMir1MVbkcK+h34hF4ZzHZKOrdjAOeE5eFbSuegJHY/AXWcZEU589VTnEE4AU+SUdjjfp6yvAtU17GAA==
+  dependencies:
+    "@types/seedrandom" "^2.4.28"
+    seedrandom "^3.0.5"
+
+"@tensorflow/tfjs-backend-cpu@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.1.0.tgz#6c1b058a63bdba748f6e13364ef01bd36f8d2301"
+  integrity sha512-NqxrwpYa/hXGaBa1RzxfHsLAsaniIZryhF5CxQM9uSp1ny8wUJMH+Mda/Y8+llS3weHug8JDAbAW2cabn8l84A==
   dependencies:
     "@types/seedrandom" "^2.4.28"
     seedrandom "^3.0.5"
@@ -1016,12 +1016,12 @@
     "@types/webgl2" "0.0.6"
     seedrandom "^3.0.5"
 
-"@tensorflow/tfjs-backend-webgpu@0.0.1-alpha.14":
-  version "0.0.1-alpha.14"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-webgpu/-/tfjs-backend-webgpu-0.0.1-alpha.14.tgz#03595cc4c121b20b52b220fb16c2f50737de3c16"
-  integrity sha512-4TLkuVY9i/o3LBBQomEkxWOgdUG2++BrPNDX6Nwjk7p4AuJbgdoALGn5Ab4uotSukIe88binMMxffMMfMIVtGw==
+"@tensorflow/tfjs-backend-webgpu@^0.0.1-alpha.14":
+  version "0.0.1-alpha.16"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-webgpu/-/tfjs-backend-webgpu-0.0.1-alpha.16.tgz#ea0d66b9ba285c5cc611423005e80772b9beb7e0"
+  integrity sha512-RorWkUr5H1KlaA4sSSP+g1HpDCKL8kNtrVz82Ib6RI1ZWXg6PGYtRWJOz5SOS7HxbLojuPfQ/DNQnefiN3iNCA==
   dependencies:
-    "@tensorflow/tfjs-backend-cpu" "3.21.0"
+    "@tensorflow/tfjs-backend-cpu" "4.1.0"
 
 "@tensorflow/tfjs-converter@^4.0.0":
   version "4.0.0"
@@ -5339,9 +5339,9 @@ q@^1.1.2:
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"

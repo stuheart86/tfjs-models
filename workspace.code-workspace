@@ -95,7 +95,7 @@
   },
   "extensions": {
     "recommendations": [
-      // Formats typescript, javascript and c++ code.
+      // Formats typescript, javascript and  code.
       "xaver.clang-format",
       // Lints typescipt code.
       "ms-vscode.vscode-typescript-tslint-plugin",

@@ -1,0 +1,10 @@
+{
+	"tasks": [
+		{
+			"taskLabel": "task-yarn",
+			"appliesTo": "yarn.lock",
+			"type": "launch"
+		}
+	],
+	"version": "0.2.1"
+}
